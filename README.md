@@ -1,16 +1,58 @@
-# React + Vite
+# Capsule Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Capsule Pomodoro is a minimalist, high-performance productivity tool designed to sit elegantly on your desktop. Built using the Tauri framework, it combines the speed of Rust with the flexibility of React to create a seamless, non-intrusive timer experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Glassmorphic Interface**: A premium aesthetic utilizing frosted glass effects and subtle accent glows.
+- **Minimalist Footprint**: A compact, floating capsule design that minimizes workspace clutter.
+- **Contextual Expansion**: The application interface remains collapsed by default, expanding to reveal full controls only upon user interaction.
+- **High Performance**: Optimized backend execution using Rust and Tauri v2.
+- **Fluid Motion**: Smooth interface transitions and state changes powered by Framer Motion.
+- **Dual Modes**: Seamlessly switch between dedicated Work and Break cycles.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Desktop Environment**: Tauri v2
+- **Language**: JavaScript / Rust
+- **Styling**: Vanilla CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Development requires the following tools:
+- Node.js (Latest LTS recommended)
+- Rust toolchain
+- Tauri-specific system dependencies (refer to the Tauri documentation for your OS)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DChitale/Pomodoro-Timer.git
+   cd Pomodoro-Timer
+   ```
+
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Launch the development environment:
+   ```bash
+   npm run tauri dev
+   ```
+
+4. Generate a production build:
+   ```bash
+   npm run tauri build
+   ```
+
+---
+
+Developed by [Dhananjay](https://github.com/DChitale)
