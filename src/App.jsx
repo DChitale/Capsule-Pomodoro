@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Hourglass, Coffee, Play, Pause, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const WORK_TIME = 0.5 * 60;
+const WORK_TIME = 25 * 60;
 const BREAK_TIME = 5 * 60;
 
 export default function App() {
