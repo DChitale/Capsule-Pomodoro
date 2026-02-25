@@ -34,8 +34,8 @@ Development requires the following tools:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DChitale/Pomodoro-Timer.git
-   cd Pomodoro-Timer
+   git clone https://github.com/DChitale/Capsule-Pomodoro.git
+   cd Capsule-Pomodoro
    ```
 
 2. Install the necessary dependencies:
